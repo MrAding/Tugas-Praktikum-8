@@ -3,7 +3,7 @@
 
 # Penjelasan
 
-**Daftar Nilai Mahasiswa
+**Daftar Nilai Mahasiswa**
 
 **>>tambah data**
 * ``data = {}`` untuk menampung list data yang nanti akan terinput
@@ -13,7 +13,7 @@
 * ``data[nama] = [nama, nim, nilai_tugas, nilai_uts, nilai_uas, nilai_akhir]`` kita akan masukkan data yang tadi kita input ke dalam `data[nama]'
 * lalu cetak ``print()``
 
-**>>Ubah data
+**>>Ubah Data**
 * deklarasikan fungsi ``def ubah_data():``
 * ``nama = input("Masukan nama untuk mengubah data: ")`` kita akan menginput data yang nanti akan di ubah
 * ``if nama in data.keys(): print("Mau mengubah apa?")`` jika 'nama' dari di dalam 'data' maka akan mengembalikan daftar menggunakan fungsi 'keys()' lalu di cetak lah 'print()'
@@ -27,14 +27,14 @@
 * lalu cetak ``print("\nBerhasil ubah data!")``
 * ``else: print("'{}' tidak ditemukan.".format(nama))`` jika kita salah dalam memasukkan nama untuk mengubah data maka akan muncul 'nama tidak di temukan'
 
-**>>Cari data
+**>>Cari Data**
 * deklarasikan fungsi ``def cari_data():``
 * ``nama = input("Masukan nama untuk mencari data: ")`` kita akan menginput data yang nanti akan di cari
 * ``if nama in data.keys():`` kita mengambil list 'nama' di dalam 'data' menggunakan pengkondisian
 * maka cetak ``print("| {0:14} | {1:9} | {2:5} | {3:5} | {4:5} | {5:5}" .format(nama, data[nama][1], data[nama][2], data[nama][3], data[nama][4], data[nama][5]))`` untuk menampilkan data yang tersedia
 * ``else: print("'{}' tidak ditemukan.".format(nama))`` jika data yang kita input salah/tidak ditemukan maka akan tercetak 'nama tidak di temukan'
 
-**>>Hapus data
+**>>Hapus Data**
 * deklarasikan fungsi ``def hapus_data():``
 * ``nama = input("Masukan nama untuk menghapus data : ")`` kita akan menginput data yang nanti akan di hapus
 * ``if nama in data.keys():`` kita mengambil list 'nama' di dalam 'data' menggunakan pengkondisian
@@ -44,10 +44,10 @@
 
 # View
 
-**>>input_nilai
+**>>input_nilai**
 * menambahkan fungsi input yang nanti nya akan di deklarasikan di setiap module nya, ``def input_nama():`` ``def input_nim():`` dan yg lainnya, yang nanti akan di masukkan kedalam ``data={}``
 
-**>>view_nilai
+**>>view_nilai**
 * deklarasikan fungsi ``def lihat_data():`` Kita menggunakan kondisi percabangan if, ambil data dari ``data``
 * lalu cetak ``print()``
 
@@ -94,12 +94,12 @@ while True:
 
 # Output
 
-**Tambah Data
+**Tambah Data**
 
-**Ubah Data
+**Ubah Data**
 
-**Lihat Data
+**Lihat Data**
 
-**Cari Data
+**Cari Data**
 
-**Hapus Data
+**Hapus Data**

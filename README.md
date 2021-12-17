@@ -5,7 +5,7 @@
 
 **Daftar Nilai Mahasiswa
 
-**>>tambah data
+**>>tambah data**
 * ``data = {}`` untuk menampung list data yang nanti akan terinput
 * deklarasikan fungsi ``def tambah_data():``
 * ``nama = input("Masukan nama: ")`` lalu tambahkan input nama, nim, nilai tugas, uts, uas
